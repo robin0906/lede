@@ -18,9 +18,13 @@
 ```bash
 sudo apt-get update
 ```
-然后输入以下的命令搭建系统环境
+然后输入以下的命令搭建系统环境，适用Ubuntu 14
 
->sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git git-core libncurses5-dev patch python3.5 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex node-uglify gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx-ucl libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib libuv-dev linux-libc-dev libhwloc-dev antlr3 gperf
+>sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git git-core libncurses5-dev patch unzip lib32gcc1 libc6-dev-i386 subversion flex gcc-multilib g++-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils libelf-dev autoconf automake libtool autopoint device-tree-compiler libuv-dev python3.5 zlib1g-dev upx-ucl node-uglify antlr3 gperf
+
+以下的命令适用Ubuntu 18
+
+>sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev patch unzip lib32gcc1 libc6-dev-i386 subversion flex gcc-multilib g++-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils libelf-dev autoconf automake libtool autopoint device-tree-compiler libuv-dev python3.6 zlib1g-dev upx-ucl node-uglify antlr3 gperf
 
 **如果你使用`root`执行了以上命令，那从此时开始，你必须使用`非root`权限用户进行后续操作**
 
