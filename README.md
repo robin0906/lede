@@ -30,7 +30,7 @@ sudo apt-get update
 
 以下的命令适用Ubuntu 20
 
->sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev patch unzip lib32gcc1 libc6-dev-i386 subversion flex gcc-multilib g++-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils libelf-dev autoconf automake libtool autopoint device-tree-compiler python3.8 zlib1g-dev upx-ucl node-uglify antlr3 gperf
+>sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev patch unzip lib32gcc1 libc6-dev-i386 subversion flex gcc-multilib g++-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils libelf-dev autoconf automake libtool autopoint device-tree-compiler python2.7 zlib1g-dev upx-ucl node-uglify antlr3 gperf
 
 **如果你使用`root`执行了以上命令，那从此时开始，你必须使用`非root`权限用户进行后续操作**
 
