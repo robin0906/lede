@@ -20,10 +20,6 @@ sudo apt-get update
 ```
 然后输入命令搭建系统环境
 
-以下的命令适用Ubuntu 14
-
->sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git git-core libncurses5-dev patch unzip lib32gcc1 libc6-dev-i386 subversion flex gcc-multilib g++-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils libelf-dev autoconf automake libtool autopoint device-tree-compiler libuv-dev python3.5 zlib1g-dev upx-ucl node-uglify antlr3 gperf
-
 以下的命令适用Ubuntu 18
 
 >sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev patch unzip lib32gcc1 libc6-dev-i386 subversion flex gcc-multilib g++-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils libelf-dev autoconf automake libtool autopoint device-tree-compiler libuv-dev python3.6 zlib1g-dev upx-ucl node-uglify antlr3 gperf
